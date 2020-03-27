@@ -1,0 +1,85 @@
+/* Navbar */
+nav {
+    background-color: rgba(250, 250, 250, 0.85) !important;
+  }
+
+/* Showcase */
+#showcase {
+    background-image: url('img/sample.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 65vh;
+}
+
+.showcase-title {
+  font-size: 8rem;
+  padding-top: 130px;
+}
+
+#showcase p {
+  font-size: 3rem;
+}
+
+@media screen and (max-width: 1250px) {
+  .showcase-title {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .showcase-title {
+    font-size: 4rem;
+  }
+
+  #showcase p {
+    font-size: 2rem;
+  }
+
+  #showcase {
+    height: 45vh;
+  }
+}
+
+/* About */
+#about {
+  background-image: url('img/drywall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 30px;
+}
+
+.about-row {
+  max-width: 65%;
+}
+.about-card {
+  margin-top: -50px;
+}
+
+@media screen and (max-width: 900px) {
+  .about-row {
+    max-width: 85%;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .about-card {
+    margin-top: 10px;
+  }
+}
+
+#services {
+  background-image: url('img/drywall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-bottom: 30px;
+  padding-top: 60px;
+  margin-top: -20px;
+}
+
+.service-icon {
+  margin-top: 50px;
+}

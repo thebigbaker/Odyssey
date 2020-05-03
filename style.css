@@ -87,7 +87,7 @@ nav {
   margin-top: -30px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: url('img/kitchen.jpg');
+  background-image: url('img/back2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -95,7 +95,31 @@ nav {
 }
 
 .carousel {
-  height: 15rem !important;
+  height: 20rem !important;
+}
+
+@media screen and (max-width: 500px) {
+  .carousel {
+    height: 25rem !important;
+  }
+}
+
+#contact {
+  background-image: url('img/drywall.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+
+.contact-icons {
+  margin-left: 20x;
+  margin-right: 20px;
+}
+
+footer {
+  height: 90px;
 }
 
 

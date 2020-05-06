@@ -21,39 +21,39 @@
             <div class="nav-wrapper">
                 <div class="container">
                     <a href="#!" class="brand-logo blue-grey-text text-darken-4">ΩDYSSEY</a>
-                    <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons blue-grey-text text-darken-4">menu</i></a>
+                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons blue-grey-text text-darken-4">menu</i></a>
                     <ul class="right hide-on-med-and-down">
-                        <li><a class="blue-grey-text text-darken-4" href="sass.html">About</a></li>
-                        <li><a class="blue-grey-text text-darken-4" href="badges.html">Services</a></li>
-                        <li><a class="blue-grey-text text-darken-4" href="collapsible.html">Testimonials</a></li>
-                        <li><a class="waves-effect waves-light btn-large light-blue darken-3">Get A Quote!</a></li>
+                        <li><a class="blue-grey-text text-darken-4" href="#about">About</a></li>
+                        <li><a class="blue-grey-text text-darken-4" href="#services">Services</a></li>
+                        <li><a class="blue-grey-text text-darken-4" href="#testimonials">Testimonials</a></li>
+                        <li><a class="waves-effect waves-light btn-large light-blue darken-3" href="#contact">Get A Quote!</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        
-        <!-- Side Nav -->
-        <ul class="sidenav" id="mobile-demo">
-            <li><a href="sass.html">About</a></li>
-            <li><a href="badges.html">Servicess</a></li>
-            <li><a href="collapsible.html">Testimonials</a></li>
-            <li><a href="mobile.html">Contact</a></li>
-        </ul>
     </div>
 
+    <!-- Side Nav -->
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact" target="_blank">Contact</a></li>
+    </ul>
+
     <!-- Showcase -->
-    <section id="showcase" class="section valign-wrapper">
+    <section id="showcase" class="section valign-wrapper scrollspy">
         <div class="container center-align">
             <div class="white-text">
                 <h1 class="showcase-title">Ωdyssey Drywall</h1>
                 <p>Commercial | Residential</p>
-                <a class="waves-effect waves-light btn-large light-blue darken-3">Get A Quote!</a>
+                <a class="waves-effect waves-light btn-large light-blue darken-3" href="#contact">Get A Quote!</a>
             </div>
         </div>
     </section>
 
     <!-- About -->
-    <section id="about">
+    <section id="about" class="scrollspy">
         <div class="row about-row">
             <div class="col s12 m4">
                 <div class="card about-card center-align">
@@ -108,7 +108,7 @@
                 </div>
                 <div class="col s6 center-align">
                     <p class="flow-text">
-                        <a href="#" class="quote-button waves-effece waves-light btn-large grey lighten-5 blue-grey-text text-darken-4">Get A Quote</a>
+                        <a href="#contact" class="waves-effect waves-light btn-large grey lighten-2 light-blue-text text-darken-3">Get A Quote</a>
                     </p>
                 </div>
             </div>
@@ -116,7 +116,7 @@
     </section>
 
     <!-- Services -->
-    <section id="services">
+    <section id="services" class="scrollspy">
         <div class="container">
             <div class="row center-align">
                 <h4>Services</h4>
@@ -156,7 +156,7 @@
     </section>
 
     <!-- Testimonials -->
-    <section id="testimonials">
+    <section id="testimonials" class="scrollspy">
         <div class="container center-align">
             <h3 class="white-text">What Our Customers Say</h3>
             <div class="row ratings">
@@ -234,7 +234,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact">
+    <section id="contact" class="scrollspy">
         <div class="row contact">
             <div class="col s12 l6 center-align contact-text">
                 <div class="container">

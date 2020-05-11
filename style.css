@@ -91,7 +91,6 @@ nav {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-
 }
 
 .carousel {
@@ -121,7 +120,11 @@ nav {
 .form-container {
   background-color: rgba(245, 245, 245, 0.8);
   border-radius: 5px;
-  max-width: 70rem;
+  max-width: 60rem;
+}
+
+.form {
+  padding-top: 30px;
 }
 
 footer {

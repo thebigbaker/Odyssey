@@ -103,13 +103,34 @@ nav {
   }
 }
 
-#contact {
+.map {
   background-image: url('img/map.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  height: 25rem;
+}
+
+@media screen and (max-width: 500px) {
+  .map {
+    height: 10rem;
+  }
+}
+
+#contact {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url('img/drywall.jpg');
+}
+
+.contact {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contact-text {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .contact-icons {
@@ -117,14 +138,16 @@ nav {
   margin-right: 20px;
 }
 
-.form-container {
-  background-color: rgba(245, 245, 245, 0.8);
-  border-radius: 5px;
-  max-width: 60rem;
+.contact-card {
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(255, 255, 255, 0.45);
 }
 
 .form {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 footer {

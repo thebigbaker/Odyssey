@@ -61,6 +61,32 @@ nav {
   padding-bottom: 3rem;
 }
 
+.card {
+  min-height: 15rem;
+}
+
+@media screen and (max-width: 1875px) {
+  .card {
+    min-height: 19rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    min-height: 32rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    min-height: 15rem;
+  }
+}
+
+.card-text {
+  font-size: 1.3rem;
+}
+
 .ha-row {
   padding-top: 3rem;
 }

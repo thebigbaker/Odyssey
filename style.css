@@ -1,3 +1,4 @@
+
 /* Navbar */
 nav {
     background-color: rgba(250, 250, 250, 0.85) !important;
@@ -139,12 +140,24 @@ nav {
 }
 
 .carousel {
-  height: 20rem !important;
+  height: 23rem !important;
 }
 
 @media screen and (max-width: 500px) {
   .carousel {
-    height: 25rem !important;
+    height: 30rem !important;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .carousel {
+    height: 37rem !important;
+  }
+}
+
+@media screen and (max-width: 385px) {
+  .carousel {
+    height: 45rem !important;
   }
 }
 

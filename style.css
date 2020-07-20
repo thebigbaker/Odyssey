@@ -145,7 +145,7 @@ nav {
 
 @media screen and (max-width: 500px) {
   .carousel {
-    height: 30rem !important;
+    height: 32rem !important;
   }
 }
 

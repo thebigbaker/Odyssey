@@ -289,27 +289,27 @@
             </div>
             <div class="col s12 l6 container">
                 <div class="center-align card contact-card">
-                    <form class="form">
+                    <form class="form" action="https://formspree.io/xoqkralk" method="POST"> 
                         <div class="container">
                             <h3 data-aos="zoom-in" class="light-blue-text text-darken-4">Request A Quote!</h3>
                             <div class="row" data-aos="fade-right">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix fal fa-user"></i>
-                                    <input id="name" type="text" class="validate">
+                                    <input id="name" type="text" name="name" class="validate">
                                     <label for="name">Name</label>
                                 </div>
                             </div>
                             <div class="row" data-aos="fade-right" data-aos-delay="300">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix fal fa-envelope"></i>
-                                    <input id="email" type="email" class="validate">
+                                    <input id="email" type="email" name="_replyto" class="validate">
                                     <label for="email">Email</label>
                                 </div>
                             </div>
                             <div class="row" data-aos="fade-right" data-aos-delay="325">
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix fal fa-phone"></i>
-                                    <input id="phone" type="tel" class="validate">
+                                    <input id="phone" type="tel" name="telephone" class="validate">
                                     <label for="phone">Phone Number</label>
                                 </div>
                             </div>
@@ -317,6 +317,7 @@
                                 <div class="input-field col s12">
                                     <i class="material-icons prefix fal fa-pencil"></i>
                                     <textarea id="textarea1" class="materialize-textarea"></textarea>
+                                    <input type="hidden" name="_subject">
                                     <label for="textarea1">Tell Us About Your Project</label>
                                 </div>
                             </div>
